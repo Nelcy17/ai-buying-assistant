@@ -39,7 +39,6 @@ useEffect(() => {
   const query = location.state?.query;
   if (query) {
     handleSearch(query);
-    // Optional: Clear state so it doesn't re-run on every minor re-render
     window.history.replaceState({}, document.title);
   }
 }, [location.state]);
@@ -92,7 +91,6 @@ useEffect(() => {
             </div>
           </div>
 
-          {/* ⚠️ AI fallback */}
           {data?.ai?.error && (
             <p className="text-red-500 text-center">
               AI is temporarily unavailable. Showing basic results.
@@ -104,6 +102,7 @@ useEffect(() => {
     </div>
   );
 }
+
 
 
 
