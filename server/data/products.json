@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Acer Aspire 7",
+    "price": 55000,
+    "category": "laptop",
+    "ram": "16GB",
+    "processor": "Ryzen 5",
+    "use_case": "coding"
+  },
+  {
+    "name": "HP Pavilion",
+    "price": 60000,
+    "category": "laptop",
+    "ram": "16GB",
+    "processor": "Intel i5",
+    "use_case": "coding"
+  },
+  {
+    "name": "Lenovo IdeaPad",
+    "price": 52000,
+    "category": "laptop",
+    "ram": "8GB",
+    "processor": "Ryzen 5",
+    "use_case": "general"
+  },
+  {
+    "name": "iPhone 13",
+    "price": 58000,
+    "category": "phone",
+    "ram": "4GB",
+    "processor": "A15",
+    "use_case": "premium"
+  }
+]
+
